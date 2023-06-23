@@ -1,0 +1,122 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+   
+}
+/* #foodcourtlogo{
+    height: 300px;
+    width: 200px;
+} */
+body{
+    font-family: montserrat;
+    /* background-image: url(foodcourt1.jpg); */
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    
+    box-sizing: border-box;
+}
+.menubar1{
+    background: #00ccff6c;
+    text-align: center;
+}
+.menubar1 ul{
+    display: inline-flex;
+    list-style: none;
+    color: #ffffff;
+}
+.menubar1 ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menubar1 ul li a{
+    text-decoration: none;
+    color: #0a0108f2;
+    font-weight: bold;
+    font-size: 18px;
+}
+.logo{
+    color: #fff;
+}
+.active,.menubar1 ul li:hover
+{
+    background:   #77888e;
+    border-radius: 15px;
+}
+.menubar1 .fas
+{
+    margin-right: 8px;
+}
+.fas{
+    margin-left: 8px;
+}
+.submenu1{
+    display: none;
+}
+.menubar1 ul li:hover .submenu1
+{
+    display: block;
+    position: absolute;
+    background:#00ccff6c ;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menubar1 ul li:hover .submenu1 ul{
+    display: block;
+    margin: 10px;
+}
+.menubar1 ul li:hover .submenu1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 3px dotted #181616;
+    background: transparent;
+    border: 0;
+    text-align: left;
+}
+.menubar1 ul li:hover .submenu1 ul li:last-child
+{
+    border-bottom: none;
+}
+.menubar1 ul li:hover .submenu1 ul li:hover
+{
+    color: rgb(20, 23, 22);
+}
+.submenu2{
+    display: none;
+}
+.hover-me:hover .submenu2{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: #00ccff6c;
+}
+.submenu1 ul .hover-me:hover
+{
+    background:   #0b0e0f;
+    border-radius: 5px;
+}
+.social-icon{
+    margin: 20px 10px;
+}
+#cta{
+    background-color: #77888e;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+    margin-top: 100px;
+}
+.cta-heading{
+    font-family: "montserrat-black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer{
+    margin-top: 50px;
+    text-align: center;
+    padding: 50px;
+}
